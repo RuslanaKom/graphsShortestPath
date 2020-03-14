@@ -1,0 +1,6 @@
+-download "graphsPath-1.0-SNAPSHOT-jar-with-dependencies.jar" from "target" directory;
+-run command prompt as administrator;
+-move to the directory where you have saved "graphsPath-1.0-SNAPSHOT-jar-with-dependencies.jar" [cd <path to your directory>];
+- run command: [java -jar graphsPath-1.0-SNAPSHOT-jar-with-dependencies.jar];
+-programm will print out a list of cities and you will be offered to enter start and destination cities (city names are case sensitive);
+-after you enter you cities the shortest route between them will be suggested;
